@@ -8,6 +8,5 @@ export const site = {
     github: 'https://github.com/VentureAlex',
     linkedin: 'https://www.linkedin.com/in/venturealex/',
     email: 'mailto:AlexanderBaLee@gmail.com',
-    emailDisplay: 'AlexanderBaLee@gmail.com',
   },
 }

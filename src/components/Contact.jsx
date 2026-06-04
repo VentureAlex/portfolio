@@ -8,7 +8,7 @@ export default function Contact({ links }) {
       <ul className="contact__list">
         <li>
           <a href={links.github} target="_blank" rel="noopener noreferrer">
-            GitHub — VentureAlex
+            GitHub
           </a>
         </li>
         <li>
@@ -17,11 +17,11 @@ export default function Contact({ links }) {
             target="_blank"
             rel="noopener noreferrer"
           >
-            LinkedIn — venturealex
+            LinkedIn
           </a>
         </li>
         <li>
-          <a href={links.email}>{links.emailDisplay}</a>
+          <a href={links.email}>Email</a>
         </li>
       </ul>
     </section>
