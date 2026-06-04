@@ -12,7 +12,16 @@ export default function Contact({ links }) {
           </a>
         </li>
         <li>
-          <a href={links.email}>Email</a>
+          <a
+            href={links.linkedin}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn — venturealex
+          </a>
+        </li>
+        <li>
+          <a href={links.email}>{links.emailDisplay}</a>
         </li>
       </ul>
     </section>

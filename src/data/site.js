@@ -6,6 +6,8 @@ export const site = {
   bio: `I'm focused on clear product thinking and shippable front-end work. This portfolio collects projects I've built and deployed, with links to live demos and source code.`,
   links: {
     github: 'https://github.com/VentureAlex',
-    email: 'mailto:hello@example.com',
+    linkedin: 'https://www.linkedin.com/in/venturealex/',
+    email: 'mailto:AlexanderBaLee@gmail.com',
+    emailDisplay: 'AlexanderBaLee@gmail.com',
   },
 }
