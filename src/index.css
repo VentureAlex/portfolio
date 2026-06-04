@@ -191,24 +191,17 @@ main {
   max-width: 32rem;
 }
 
-/* Project grid */
+/* Project grid — 2 columns on tablet+ */
 .grid {
   display: grid;
   gap: 1.25rem;
   margin-top: 2rem;
-}
-
-.grid--featured {
   grid-template-columns: 1fr;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 560px) {
   .grid {
     grid-template-columns: repeat(2, 1fr);
-  }
-
-  .grid--featured {
-    grid-template-columns: 1fr;
   }
 }
 

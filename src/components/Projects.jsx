@@ -1,8 +1,9 @@
 import ProjectCard from './ProjectCard'
 
 export default function Projects({ projects }) {
-  const featured = projects.filter((p) => p.featured)
-  const rest = projects.filter((p) => !p.featured)
+  const sorted = [...projects].sort(
+    (a, b) => Number(b.featured) - Number(a.featured)
+  )
 
   return (
     <section className="section" id="projects">
@@ -11,19 +12,11 @@ export default function Projects({ projects }) {
         <p>Live apps and repos. Add entries in <code>src/data/projects.js</code>.</p>
       </div>
 
-      <div className="grid grid--featured">
-        {featured.map((project) => (
+      <div className="grid">
+        {sorted.map((project) => (
           <ProjectCard key={project.slug} project={project} />
         ))}
       </div>
-
-      {rest.length > 0 && (
-        <div className="grid">
-          {rest.map((project) => (
-            <ProjectCard key={project.slug} project={project} />
-          ))}
-        </div>
-      )}
     </section>
   )
 }
