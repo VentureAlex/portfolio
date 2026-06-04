@@ -122,15 +122,13 @@ main {
   letter-spacing: -0.02em;
 }
 
-.hero__role {
-  color: var(--text-muted);
+.hero__headline {
+  margin: 0.75rem 0 0;
+  max-width: 40rem;
+  font-family: var(--font-display);
+  font-size: clamp(1.1rem, 2.5vw, 1.45rem);
   font-weight: 400;
-}
-
-.hero__tagline {
-  margin: 1.25rem 0 0;
-  max-width: 36rem;
-  font-size: 1.125rem;
+  line-height: 1.45;
   color: var(--text-muted);
 }
 
@@ -292,6 +290,13 @@ main {
   max-width: 40rem;
   color: var(--text-muted);
   font-size: 1.05rem;
+}
+
+.about__text--secondary {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  opacity: 0.9;
 }
 
 .contact__list {

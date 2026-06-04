@@ -1,9 +1,11 @@
 export const site = {
   name: 'Alex',
-  role: 'Software Developer',
-  tagline:
-    'I build small, useful web apps — from weather-driven tools to polished UIs deployed on Vercel.',
-  bio: `I'm focused on clear product thinking and shippable front-end work. This portfolio collects projects I've built and deployed, with links to live demos and source code.`,
+  headline:
+    'Architecting solutions to solve meaningful problems to drive value',
+  whoIAm:
+    'IT Systems Engineer & Project Manager with X years keeping infrastructure reliable and projects on schedule. Open to Senior Sysadmin, IT Manager, or Technical PM roles.',
+  portfolioNote:
+    'This site also highlights apps I have built and shipped — experiments that show how I think about tools, users, and delivery.',
   links: {
     github: 'https://github.com/VentureAlex',
     linkedin: 'https://www.linkedin.com/in/venturealex/',
