@@ -5,7 +5,7 @@ export const projects = [
     description:
       'Enter a US zip code and crop type to get a scored 7-day outlook for the best day to plant — using free weather APIs, no keys required.',
     tags: ['React', 'Vite', 'Open-Meteo'],
-    liveUrl: 'https://plant-planner.vercel.app',
+    liveUrl: 'https://venture-alex-plant-planner.vercel.app',
     repoUrl: 'https://github.com/VentureAlex/plant-planner',
     featured: true,
   },
