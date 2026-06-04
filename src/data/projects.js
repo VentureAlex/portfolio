@@ -10,6 +10,16 @@ export const projects = [
     featured: true,
   },
   {
+    slug: 'space-invaders-dual',
+    title: 'Dual Space Invaders',
+    description:
+      'Co-op Space Invaders on one keyboard — cyan ship uses A/D, magenta ship uses arrow keys; clear the swarm together.',
+    tags: ['Canvas', 'Vite', 'JavaScript'],
+    liveUrl: 'https://venture-alex-space-invaders-dual.vercel.app',
+    repoUrl: 'https://github.com/VentureAlex/space-invaders-dual',
+    featured: false,
+  },
+  {
     slug: 'portfolio',
     title: 'This Portfolio',
     description:
