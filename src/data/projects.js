@@ -25,7 +25,7 @@ export const projects = [
     description:
       'A minimal project showcase site deployed on Vercel with Web Analytics — built to link out to other apps and repos.',
     tags: ['React', 'Vite', 'Vercel'],
-    liveUrl: null,
+    liveUrl: 'https://www.venturealex.com',
     repoUrl: 'https://github.com/VentureAlex/portfolio',
     featured: false,
   },

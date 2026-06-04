@@ -3,7 +3,7 @@ export const site = {
   headline:
     'Architecting solutions to solve meaningful problems to drive value',
   whoIAm:
-    'IT Systems Engineer & Project Manager with X years keeping infrastructure reliable and projects on schedule. Open to Senior Sysadmin, IT Manager, or Technical PM roles.',
+    'Technical engineering leader with 10+ years delivering high-impact projects across M&A, AI/search platforms, enterprise systems, and digital transformation. Background spans IT infrastructure, networking, data centers, and manufacturing (PLM/NPI). Open to Senior IT Systems, Engineering Manager, or Technical PM roles.',
   portfolioNote:
     'This site also highlights apps I have built and shipped — experiments that show how I think about tools, users, and delivery.',
   links: {
