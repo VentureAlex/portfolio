@@ -1,5 +1,15 @@
 export const projects = [
   {
+    slug: 'fortune500-earnings-calendar',
+    title: 'Fortune 500 Earnings Calendar',
+    description:
+      'Interactive earnings calendar for Fortune 500 companies — filter by quarter, industry, and ticker with color-coded events, EPS estimates, dark/light mode, and a responsive FullCalendar UI backed by FastAPI + SQLite.',
+    tags: ['FastAPI', 'SQLite', 'FullCalendar.js', 'Python', 'Vercel'],
+    liveUrl: 'https://fortune500-earnings-calendar.vercel.app',
+    repoUrl: 'https://github.com/VentureAlex/fortune500-earnings-calendar',
+    featured: true,
+  },
+  {
     slug: 'plant-planner',
     title: 'Plant Planner',
     description:
