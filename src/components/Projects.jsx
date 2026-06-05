@@ -9,7 +9,7 @@ export default function Projects({ projects }) {
     <section className="section" id="projects">
       <div className="section__head">
         <h2>Projects</h2>
-        <p>Live apps and repos. Add entries in <code>src/data/projects.js</code>.</p>
+        <p>Live apps and open-source repos.</p>
       </div>
 
       <div className="grid">

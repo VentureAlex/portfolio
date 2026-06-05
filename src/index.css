@@ -220,6 +220,10 @@ main {
   background: linear-gradient(145deg, #1e2832 0%, #151c24 100%);
 }
 
+.card:has(.card__main-link):hover {
+  border-color: var(--accent-dim);
+}
+
 .card__badge {
   align-self: flex-start;
   font-size: 0.7rem;
@@ -239,12 +243,13 @@ main {
   font-weight: 500;
 }
 
-.card__title-link {
-  color: inherit;
+.card__main-link {
+  display: block;
   text-decoration: none;
+  color: inherit;
 }
 
-.card__title-link:hover {
+.card__main-link:hover .card__title {
   color: var(--accent);
 }
 
