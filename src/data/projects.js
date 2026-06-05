@@ -19,14 +19,4 @@ export const projects = [
     repoUrl: 'https://github.com/VentureAlex/space-invaders-dual',
     featured: false,
   },
-  {
-    slug: 'portfolio',
-    title: 'This Portfolio',
-    description:
-      'A minimal project showcase site deployed on Vercel with Web Analytics — built to link out to other apps and repos.',
-    tags: ['React', 'Vite', 'Vercel'],
-    liveUrl: 'https://www.venturealex.com',
-    repoUrl: 'https://github.com/VentureAlex/portfolio',
-    featured: false,
-  },
 ]
