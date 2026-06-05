@@ -3,7 +3,7 @@ export default function Hero({ site }) {
     <section className="hero" id="top">
       <p className="hero__eyebrow">Portfolio</p>
       <h1 className="hero__title">{site.name}</h1>
-      <p className="hero__headline">{site.headline}</p>
+      <p>{site.headline}</p>
       <div className="hero__actions">
         <a href="#about" className="btn btn--primary">
           Who I am

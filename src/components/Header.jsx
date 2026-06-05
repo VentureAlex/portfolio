@@ -8,7 +8,7 @@ export default function Header({ name }) {
   return (
     <header className="header">
       <a href="#" className="header__logo">
-        {name}
+        Curiosity is the spark of greatness.
       </a>
       <nav className="header__nav" aria-label="Primary">
         {nav.map((item) => (
