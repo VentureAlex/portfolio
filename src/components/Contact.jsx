@@ -1,29 +1,33 @@
+function ExternalLinkIcon() {
+  return (
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <path d="M7 17L17 7M17 7H7M17 7v10" />
+    </svg>
+  )
+}
+
 export default function Contact({ links }) {
   return (
-    <section className="section" id="contact">
-      <div className="section__head">
-        <h2>Contact</h2>
-        <p>Open to collaboration and feedback on these projects.</p>
+    <section id="contact" className="section">
+      <p className="section__label" aria-hidden="true">Contact</p>
+      <h2 className="contact__heading">Let's Connect</h2>
+      <p className="body-text">
+        Whether you want to collaborate on a project, discuss an opportunity, or just say hello — my inbox is open.
+      </p>
+      <div className="contact__links">
+        <a href={links.email} className="contact__link">
+          <ExternalLinkIcon />
+          AlexanderBaLee@gmail.com
+        </a>
+        <a href={links.linkedin} className="contact__link" target="_blank" rel="noopener noreferrer">
+          <ExternalLinkIcon />
+          linkedin.com/in/venturealex
+        </a>
+        <a href={links.github} className="contact__link" target="_blank" rel="noopener noreferrer">
+          <ExternalLinkIcon />
+          github.com/VentureAlex
+        </a>
       </div>
-      <ul className="contact__list">
-        <li>
-          <a href={links.github} target="_blank" rel="noopener noreferrer">
-            GitHub
-          </a>
-        </li>
-        <li>
-          <a
-            href={links.linkedin}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            LinkedIn
-          </a>
-        </li>
-        <li>
-          <a href={links.email}>Email</a>
-        </li>
-      </ul>
     </section>
   )
 }

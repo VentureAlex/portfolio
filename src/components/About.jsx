@@ -1,11 +1,9 @@
 export default function About({ site }) {
   return (
-    <section className="section section--about" id="about">
-      <div className="section__head">
-        <h2>Who I am</h2>
-      </div>
-      <p className="about__text">{site.whoIAm}</p>
-      <p className="about__text about__text--secondary">{site.portfolioNote}</p>
+    <section id="about" className="section">
+      <p className="section__label" aria-hidden="true">About</p>
+      <p className="body-text">{site.whoIAm}</p>
+      <p className="body-text body-text--secondary">{site.portfolioNote}</p>
     </section>
   )
 }
