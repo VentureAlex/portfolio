@@ -1,6 +1,7 @@
 export const projects = [
   {
     slug: 'fortune500-earnings-calendar',
+    year: '2025',
     title: 'Fortune 500 Earnings Calendar',
     description:
       'Interactive earnings calendar for Fortune 500 companies — filter by quarter, industry, and ticker with color-coded events, EPS estimates, dark/light mode, and a responsive FullCalendar UI backed by FastAPI + SQLite.',
@@ -11,6 +12,7 @@ export const projects = [
   },
   {
     slug: 'plant-planner',
+    year: '2025',
     title: 'Plant Planner',
     description:
       'Enter a US zip code and crop type to get a scored 7-day outlook for the best day to plant — using free weather APIs, no keys required.',
@@ -21,6 +23,7 @@ export const projects = [
   },
   {
     slug: 'space-invaders-dual',
+    year: '2025',
     title: 'Dual Space Invaders',
     description:
       'Co-op Space Invaders on one keyboard — cyan ship uses A/D, magenta ship uses arrow keys; clear the swarm together.',
