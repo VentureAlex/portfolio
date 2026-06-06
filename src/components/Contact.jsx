@@ -10,7 +10,7 @@ export default function Contact({ links }) {
   return (
     <section id="contact" className="section">
       <p className="section__label" aria-hidden="true">Contact</p>
-      <h2 className="contact__heading">Let's Connect</h2>
+      <h2 className="contact__heading">Tech Stack</h2>
       <p className="body-text">
         Whether you want to collaborate on a project, discuss an opportunity, or just say hello — my inbox is open.
       </p>

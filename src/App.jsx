@@ -1,13 +1,14 @@
 import { useState, useEffect } from 'react'
 import LeftPanel from './components/LeftPanel'
 import About from './components/About'
+import Experience from './components/Experience'
+import Wins from './components/Wins'
 import Projects from './components/Projects'
-import Contact from './components/Contact'
 import Footer from './components/Footer'
 import { site } from './data/site'
 import { projects } from './data/projects'
 
-const SECTION_IDS = ['about', 'projects', 'contact']
+const SECTION_IDS = ['about', 'experience', 'wins', 'projects']
 
 export default function App() {
   const [activeSection, setActiveSection] = useState('about')
@@ -42,9 +43,10 @@ export default function App() {
         <LeftPanel site={site} activeSection={activeSection} />
         <main className="right-content">
           <About site={site} />
+          <Experience experience={site.experience} />
+          <Wins wins={site.wins} />
           <Projects projects={projects} />
-          <Contact links={site.links} />
-          <Footer name={site.name} />
+<Footer name={site.name} />
         </main>
       </div>
     </div>

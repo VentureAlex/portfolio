@@ -1,7 +1,8 @@
 const NAV = [
   { id: 'about', label: 'About' },
+  { id: 'experience', label: 'Experience' },
+  { id: 'wins', label: 'Highlights' },
   { id: 'projects', label: 'Projects' },
-  { id: 'contact', label: 'Contact' },
 ]
 
 function GitHubIcon() {
@@ -36,7 +37,7 @@ export default function LeftPanel({ site, activeSection }) {
         <a href="#" className="left-panel__name-link">
           <h1 className="left-panel__name">{site.name}</h1>
         </a>
-        <p className="left-panel__title">{site.title}</p>
+        <p className="left-panel__title">{site.headline}</p>
         <p className="left-panel__bio">{site.shortBio}</p>
       </div>
 

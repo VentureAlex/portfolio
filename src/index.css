@@ -380,6 +380,148 @@ a {
   color: var(--accent);
 }
 
+/* ── Experience ───────────────────────────────────────── */
+.exp-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.exp-group__header {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.exp-group__company {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.exp-group__span {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+  text-transform: uppercase;
+}
+
+.exp-roles {
+  display: flex;
+  flex-direction: column;
+  margin: 0 -1.25rem;
+}
+
+.exp-role {
+  display: grid;
+  grid-template-columns: 110px 1fr;
+  gap: 1.5rem;
+  padding: 0.875rem 1.25rem;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+.exp-role:hover {
+  background: var(--bg-card);
+  border-color: rgba(255, 255, 255, 0.06);
+}
+
+.exp-role__period {
+  padding-top: 0.2rem;
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  line-height: 1.6;
+  white-space: nowrap;
+}
+
+.exp-role__body {
+  min-width: 0;
+}
+
+.exp-role__title {
+  margin: 0 0 0.5rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text);
+  line-height: 1.35;
+}
+
+.exp-card__desc {
+  margin: 0 0 0.875rem;
+  font-size: 0.875rem;
+  color: var(--text-muted);
+  line-height: 1.65;
+}
+
+.exp-card__tags {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.exp-card__tags li {
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: var(--accent);
+  background: rgba(232, 165, 75, 0.1);
+  padding: 0.2rem 0.65rem;
+  border-radius: 999px;
+  line-height: 1.6;
+}
+
+/* ── Wins / Highlights ────────────────────────────────── */
+.wins-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.win-card {
+  padding: 1.5rem;
+  border-radius: 8px;
+  background: var(--bg-card);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.win-card__metric {
+  font-family: var(--font-display);
+  font-size: 2.25rem;
+  font-weight: 600;
+  color: var(--accent);
+  line-height: 1;
+}
+
+.win-card__label {
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text);
+  margin-top: 0.25rem;
+}
+
+.win-card__desc {
+  margin: 0.5rem 0 0;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
 /* ── Footer ───────────────────────────────────────────── */
 .footer {
   padding: 0 0 3rem;
@@ -453,6 +595,15 @@ a {
 
   .section {
     margin-bottom: 4rem;
+  }
+
+  .wins-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .exp-role {
+    grid-template-columns: 1fr;
+    gap: 0.25rem;
   }
 
   .project-list {
