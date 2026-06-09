@@ -17,7 +17,7 @@ function ArrowIcon() {
 }
 
 export default function ProjectCard({ project }) {
-  const { title, description, tags, liveUrl, repoUrl, year } = project
+  const { title, description, detail, tags, liveUrl, repoUrl, year } = project
   const href = liveUrl || repoUrl
 
   return (
@@ -37,6 +37,7 @@ export default function ProjectCard({ project }) {
           </span>
         </div>
         <p className="project-card__desc">{description}</p>
+        {detail && <p className="project-card__detail">{detail}</p>}
         <ul className="project-card__tags">
           {tags.map((tag) => (
             <li key={tag}>{tag}</li>

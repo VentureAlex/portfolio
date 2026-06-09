@@ -4,7 +4,9 @@ export const projects = [
     year: '2025',
     title: 'Fortune 500 Earnings Calendar',
     description:
-      'Interactive earnings calendar for Fortune 500 companies — filter by quarter, industry, and ticker with color-coded events, EPS estimates, dark/light mode, and a responsive FullCalendar UI backed by FastAPI + SQLite.',
+      'No free tool lets you filter Fortune 500 earnings by quarter, sector, and ticker in a single calendar view — so I built one.',
+    detail:
+      'FastAPI scrapes and caches earnings data in SQLite; FullCalendar.js renders it with color-coded events, EPS estimates, and dark/light mode.',
     tags: ['FastAPI', 'SQLite', 'FullCalendar.js', 'Python', 'Vercel'],
     liveUrl: 'https://fortune500-earnings-calendar.vercel.app',
     repoUrl: 'https://github.com/VentureAlex/fortune500-earnings-calendar',
@@ -15,9 +17,11 @@ export const projects = [
     year: '2025',
     title: 'Plant Planner',
     description:
-      'Enter a US zip code and crop type to get a scored 7-day outlook for the best day to plant — using free weather APIs, no keys required.',
+      'Planting guides give you month ranges. Real weather varies by zip code. This scores the best actual day to plant based on a live 7-day forecast.',
+    detail:
+      'Uses Open-Meteo\'s free weather API (no key required) and a composite scoring index across temperature, precipitation, and humidity.',
     tags: ['React', 'Vite', 'Open-Meteo'],
-    liveUrl: 'https://venture-alex-plant-planner.vercel.app',
+    liveUrl: 'https://plant-planner-gules.vercel.app',
     repoUrl: 'https://github.com/VentureAlex/plant-planner',
     featured: true,
   },
@@ -26,10 +30,25 @@ export const projects = [
     year: '2025',
     title: 'Dual Space Invaders',
     description:
-      'Co-op Space Invaders on one keyboard — cyan ship uses A/D, magenta ship uses arrow keys; clear the swarm together.',
-    tags: ['Canvas', 'Vite', 'JavaScript'],
-    liveUrl: 'https://venture-alex-space-invaders-dual.vercel.app',
+      'Co-op Space Invaders on one keyboard — cyan ship on A/D, magenta ship on arrow keys. Clear the swarm together.',
+    detail:
+      'Built on the Canvas API with no game engine — collision detection, shared game loop, and dual control scheme written from scratch.',
+    tags: ['Canvas API', 'Vite', 'JavaScript'],
+    liveUrl: 'https://space-invaders-dual.vercel.app',
     repoUrl: 'https://github.com/VentureAlex/space-invaders-dual',
+    featured: true,
+  },
+  {
+    slug: 'toolbox',
+    year: '2025',
+    title: 'Toolbox',
+    description:
+      'A collection of practical Python scripts for monitoring, data handling, and automation — each with its own README so they\'re actually reusable.',
+    detail:
+      'Includes a speed test logger (CSV output), JSON→CSV converter, Google Trends fetcher, and a zip-code-based planting planner.',
+    tags: ['Python', 'pandas', 'requests'],
+    liveUrl: null,
+    repoUrl: 'https://github.com/VentureAlex/toolbox',
     featured: false,
   },
 ]

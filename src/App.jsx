@@ -8,7 +8,7 @@ import Footer from './components/Footer'
 import { site } from './data/site'
 import { projects } from './data/projects'
 
-const SECTION_IDS = ['about', 'experience', 'wins', 'projects']
+const SECTION_IDS = ['about', 'projects', 'experience', 'wins']
 
 export default function App() {
   const [activeSection, setActiveSection] = useState('about')
@@ -43,9 +43,9 @@ export default function App() {
         <LeftPanel site={site} activeSection={activeSection} />
         <main className="right-content">
           <About site={site} />
+          <Projects projects={projects} />
           <Experience experience={site.experience} />
           <Wins wins={site.wins} />
-          <Projects projects={projects} />
 <Footer name={site.name} />
         </main>
       </div>

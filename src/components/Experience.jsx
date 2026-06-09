@@ -36,8 +36,11 @@ export default function Experience({ experience }) {
                     <h3 className="exp-role__title">{job.role}</h3>
                     <p className="exp-card__desc">{job.description}</p>
                     <ul className="exp-card__tags">
-                      {job.tags.map((tag) => (
-                        <li key={tag}>{tag}</li>
+                      {job.platforms.map((tag) => (
+                        <li key={tag} className="exp-tag--platform">{tag}</li>
+                      ))}
+                      {job.skills.map((tag) => (
+                        <li key={tag} className="exp-tag--skill">{tag}</li>
                       ))}
                     </ul>
                   </div>
