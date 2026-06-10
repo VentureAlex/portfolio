@@ -63,7 +63,7 @@ export const site = {
     },
     {
       period: '2015',
-      role: 'Packaging Engineer → Associate',
+      role: ' Associate Packaging Engineer',
       company: 'Intuitive Surgical',
       description: 'Interned then promoted to Associate Packaging Engineer. Reduced packaging costs by $1M/year by analyzing shipment volumes on disposable instruments. Turned down a full-time offer to pursue a role in IT.',
       platforms: [],

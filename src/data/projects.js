@@ -1,16 +1,16 @@
 export const projects = [
   {
-    slug: 'fortune500-earnings-calendar',
+    slug: 'S&P500-earnings-calendar',
     year: '2025',
-    title: 'Fortune 500 Earnings Calendar',
+    title: 'S&P 500 Earnings Calendar',
     description:
-      'No free tool lets you filter Fortune 500 earnings by quarter, sector, and ticker in a single calendar view — so I built one.',
+      'No free tool lets you filter S&P 500 earnings by quarter, sector, and ticker in a single calendar view — so I built one.',
     detail:
       'FastAPI scrapes and caches earnings data in SQLite; FullCalendar.js renders it with color-coded events, EPS estimates, and dark/light mode.',
     platforms: ['FastAPI', 'SQLite', 'FullCalendar.js', 'Vercel'],
     skills: ['REST API Design', 'Data Pipeline'],
-    liveUrl: 'https://fortune500-earnings-calendar.vercel.app',
-    repoUrl: 'https://github.com/VentureAlex/fortune500-earnings-calendar',
+    liveUrl: 'https://sp500-earnings-calendar.vercel.app',
+    repoUrl: 'https://github.com/VentureAlex/sp500-earnings-calendar',
     featured: true,
   },
   {
